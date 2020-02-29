@@ -6,19 +6,60 @@ html {
 body {
     width: 1367px;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: OpenSans-Bold,OpenSans,AdobeInvisFont,MyriadPro-Regular;
+}
+a{
+    text-decoration: none;
 }
 
 
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 85px, 0, 102px, 0;
+}
+.icon1 {
+    margin: 12px 85px;
+}
+.icon2 {
+    margin: 7px 85px;
+}
+
+.slider {
+    /*background: url(.../img/blue-swoop-dots-slider-background.jpg) 1005 100% no-repeat;*/
+}
 header {
-    height: 35px;
-    
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F5B9F;
 }
+.logo {
+    font-size: 24px;
+    margin-left: 103px;
+}
+.appl{
+    color: #ECF0F1;
+}
+.alogo {
+    color: #C5D1DE;
+}
+
+nav {
+    margin-right: 85px;
+}
+nav a{
+    color: #C5D1DE;
+    font-size:14px;
+    margin-left: 30px;
+}
+nav a:hover{
+    color: #9E8F7D;
+}
+
+
 main {
-    height: 35px;
     
 }
 footer {
-    height: 35px;
     
 }
